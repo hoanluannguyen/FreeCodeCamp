@@ -1,7 +1,6 @@
-
-
 function pairElement(str) {
   return str;
 }
 
-pairElement("GCG");
+
+console.log(pairElement("GCG"));
