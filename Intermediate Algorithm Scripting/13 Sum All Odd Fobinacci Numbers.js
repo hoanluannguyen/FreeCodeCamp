@@ -12,6 +12,8 @@ function sumFibs(num) {
   var sequence = [1,1];
 
   while (sequence.secondToLast() + sequence.last() <= num) {
+    // while loop take the secondToLast number and last number
+    // and add it in, like 1+1 = 2, so they add 2 to the sequence
     sequence.push(sequence.secondToLast() + sequence.last());
   }
 
